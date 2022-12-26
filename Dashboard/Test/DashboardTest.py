@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from datetime import date
 from fredapi import Fred
-fred_key = '9a9c69745bc32b9678c0207caa1a119a'
+fred_key = ''
 #import ta
 import yfinance as yf
 
