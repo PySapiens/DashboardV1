@@ -9,7 +9,7 @@ import pandas as pd
 import quandl
 from backtesting import Backtest, Strategy
 from backtesting.lib import crossover
-key='3NXCnuBDyDnnhec-yWs8' #nasdaq auth
+key='' #nasdaq auth
 import streamlit as st
 
 sp_df = yf.download('^GSPC')
