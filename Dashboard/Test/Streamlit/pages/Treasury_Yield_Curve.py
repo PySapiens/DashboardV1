@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import quandl as ql
 import streamlit as st
-authtoken='3NXCnuBDyDnnhec-yWs8'
+authtoken=''
 
 #%matplotlib inline
 
