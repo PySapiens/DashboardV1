@@ -9,11 +9,11 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import quandl as ql
 import streamlit as st
-
+authtoken='3NXCnuBDyDnnhec-yWs8'
 
 #%matplotlib inline
 
-yield_ = ql.get("USTREASURY/YIELD", authtoken='3NXCnuBDyDnnhec-yWs8')
+yield_ = ql.get("USTREASURY/YIELD", authtoken=authtoken)
 today = yield_.iloc[-1,:]
 month_ago = yield_.iloc[-30,:]
 df = pd.concat([today, month_ago], axis=1)
